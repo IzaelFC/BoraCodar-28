@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://cdn.tailwindcss.com"></script>
+    <title>Plataforma IA</title>
+    <style>
+        img {
+            width: 32px;
+            height: 32px;
+        }
+
+        #container {
+            background: rgba(2, 6, 23, 0.80);
+        }
+
+        @media (max-width: 640px){
+            img {
+                width: 28px;
+                height: 28px;
+            }
+        }
+    </style>
+</head>
+<body class="flex h-screen sm:mx-10 sm:items-center bg-[url('./assets/imgbg.png')] bg-cover bg-no-repeat">
+    <div class="w-full mx-auto sm:p-10 p-5 sm:rounded-[32px] sm:border sm:border-[#334155]" id="container">
+        <div class="flex flex-col">
+            <header class="flex flex-col gap-4 items-center justify-center">
+                <img class="sm:w-12 sm:h-12 w-10 h-10 p-2 bg-[#0F172A] sm:rounded-2xl rounded-xl border border-[#334155]" src="assets/magic-wand.svg" alt="">
+                <h1 class="text-[#F8FAFC] sm:text-2xl text-xl text-center font-semibold">Experimente o poder da Inteligência Artificial</h1>
+            </header>
+            <main class="flex flex-col sm:mx-20 mx-10 sm:my-7 my-8 gap-5">
+                <section class="flex p-3 justify-between bg-[#0F172A] rounded-2xl border border-[#334155]">
+                    <div class="flex gap-3 my-auto">
+                        <img class="p-2 border border-[#1E293B] rounded-md" src="assets/code.svg" alt="">
+                        <p class="sm:text-base text-[10px] text-[#E2E8F0] font-semibold my-auto">Gerador de códigos</p>
+                    </div>
+                    <img class="sm:p-1 p-2 my-auto" src="assets/arrow-right.svg" alt="">
+                </section>
+
+                <section class="flex p-3 justify-between bg-[#0F172A] rounded-2xl border border-[#334155]">
+                    <div class="flex gap-3 my-auto">
+                        <img class="p-2 border border-[#1E293B] rounded-md" src="assets/image-square.svg" alt="">
+                        <p class="sm:text-base text-[10px] text-[#E2E8F0] font-semibold my-auto">Edição de fotos</p>
+                    </div>
+                    <img class="sm:p-1 p-2 my-auto" src="assets/arrow-right.svg" alt="">
+                </section>
+
+                <section class="flex p-3 justify-between bg-[#0F172A] rounded-2xl border border-[#334155]">
+                    <div class="flex gap-3 my-auto">
+                        <img class="p-2 border border-[#1E293B] rounded-md" src="assets/play-circle.svg" alt="">
+                        <p class="sm:text-base text-[10px] text-[#E2E8F0] font-semibold my-auto">Geração de vídeos</p>
+                    </div>
+                    <img class="sm:p-1 p-2 my-auto" src="assets/arrow-right.svg" alt="">
+                </section>
+
+                <section class="flex p-3 justify-between bg-[#0F172A] rounded-2xl border border-[#334155]">
+                    <div class="flex gap-3 my-auto">
+                        <img class="p-2 border border-[#1E293B] rounded-md" src="assets/music-notes-simple.svg" alt="">
+                        <p class="sm:text-base text-[10px] text-[#E2E8F0] font-semibold my-auto">Criador de áudios e musicas</p>
+                    </div>
+                    <img class="sm:p-1 p-2 my-auto" src="assets/arrow-right.svg" alt="">
+                </section>
+            </main>
+
+            <footer class="flex sm:pt-7 pt-8 justify-between border-t border-[#334155]">
+                <div class="w-full flex p-2 bg-[#0F172A] rounded-2xl border border-[#334155]">
+                    <img class="p-1" src="assets/plus-circle.svg" alt="">
+                    <p class="ml-2 text-[#E2E8F0] sm:text-sm text-[10px] my-auto">Envie uma mensagem ou digite “/” para exibir os comandos </p>
+                </div>
+                <div class="flex p-2 ml-3 my-auto bg-[#0F172A] rounded-xl border border-[#334155]">
+                    <img class="p-1" src="assets/paper-plane-right.svg" alt="">
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
